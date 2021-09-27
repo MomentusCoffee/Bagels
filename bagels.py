@@ -33,6 +33,7 @@ while play:
                 break
             
         if guess == secretNum:
+            print("Congratulations! You've guessed it!!!")
             break
           
         count += 1
