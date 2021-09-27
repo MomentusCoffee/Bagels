@@ -50,6 +50,9 @@ while play:
             print(' '.join(clue))
         print("You have", 10 - count, "guesses left.")
         
+    if count == 10:
+        print("The secret number was:", secretNum)
+    
     playAgain = input("Would you like to play again? (yes/no)\n")
     if playAgain.lower().startswith("n"):
         play = False
