@@ -16,7 +16,7 @@ while play:
         guess = ''
         
         while True:
-            print("Type Help for help menu")
+            print("Enter a 3 digit number or type help for help menu\n")
             guess = input("# ")
             
             if guess.lower().startswith("\h"):
